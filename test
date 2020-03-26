@@ -1,0 +1,9 @@
+var image=new SimpleImage(100,100);
+var pix=image.getPixel(0,0);
+pix.setRed(250);
+print(image);
+
+var r=pix.getRed();
+print(r);
+r=Math.floor(r/16)*16;
+print(r);
